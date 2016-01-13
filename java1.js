@@ -114,3 +114,7 @@ var result = (found || someUndeclaredVariable); // óskilgr. breyta
 alert(result); // virkar
 
 Svar 
+Þetta er mjög fyndið dæmi, var með þetta rett skrifað enn af einhverju ástæðu skilaðist það ekki inn
+þannig er að edita a github
+það tjekkar alltaf hvort það sjé eithtvað true, ef fyrsta er false tjekkar það næsta til að leita af true og ef það er eitthvað
+true þá verður result true, ef allt er false þá verður result false, ef eitthvað er undeclared þá kemur villa.
